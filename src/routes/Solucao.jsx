@@ -1,0 +1,2 @@
+import React from 'react';
+export default function Solucao() { return (<div className='p-10 text-center'><h2 className='text-2xl font-bold'>Nossa Solução</h2><p className='mt-4'>Integração de sensores, inteligência artificial e notificações móveis para antecipar desastres e salvar vidas.</p></div>); }

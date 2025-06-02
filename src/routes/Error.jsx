@@ -1,0 +1,2 @@
+import React from 'react';
+export default function Error() { return (<div className='p-10 text-center text-red-600'><h2 className='text-3xl font-bold'>Erro 404</h2><p className='mt-4'>Página não encontrada</p></div>); }

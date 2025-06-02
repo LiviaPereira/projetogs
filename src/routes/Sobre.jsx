@@ -1,0 +1,2 @@
+import React from 'react';
+export default function Sobre() { return (<div className='p-10 text-center'><h2 className='text-2xl font-bold'>Sobre o Projeto</h2><p className='mt-4'>Este projeto visa apresentar uma solução tecnológica para mitigação dos efeitos de enchentes no Brasil.</p></div>); }

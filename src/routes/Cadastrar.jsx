@@ -1,0 +1,2 @@
+import React from 'react';
+export default function Cadastrar() { return (<div className='p-10 text-center'><h2 className='text-2xl font-bold'>Cadastro</h2><p className='mt-4'>Área para cadastro de novos usuários (futura implementação).</p></div>); }
