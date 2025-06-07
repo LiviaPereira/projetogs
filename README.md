@@ -41,15 +41,6 @@ A proposta utiliza sensores, inteligência artificial e comunicação multicanal
 - `/cadastrar` — Tela futura de cadastro
 - `*` — Página de erro 404
 
----
-
-## 🖼️ Imagem ilustrativa
-
-A pasta `public/img/` contém uma imagem:
- 
-- `enchente.png` — ilustração oficial com a logo ALERTA+ (recomendada para a tela inicial)
-
----
 
 ## ⚙️ Como Executar
 
@@ -61,6 +52,10 @@ npm run dev
 Acesse em: [http://localhost:5173](http://localhost:5173)
 
 ---
+
+## Link Repositório
+
+https://github.com/LiviaPereira/projetogs
 
 ## 📄 Licença
 
