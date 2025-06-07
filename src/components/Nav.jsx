@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import alertaBranco from '/img/alertabranco.png';
+import alertaBranco from '../img/alertabranco.png';
 
 export default function Nav() {
   return (

@@ -3,13 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Login() {
   const [isLogin, setIsLogin] = useState(true);
-
   const toggleForm = () => setIsLogin(!isLogin);
 
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center font-montserrat p-4">
       <div className="relative w-full max-w-md perspective">
-        <div className="relative w-full h-[400px]">
+        <div className="relative w-full min-h-[400px]">
           <AnimatePresence mode="wait">
             <motion.div
               key={isLogin ? "login" : "register"}
@@ -19,7 +18,11 @@ export default function Login() {
               transition={{ duration: 0.6 }}
               className="absolute w-full h-full rounded-2xl shadow-xl bg-white backface-hidden px-8 py-6 flex flex-col justify-center"
             >
-              {isLogin ? <LoginForm toggleForm={toggleForm} /> : <RegisterForm toggleForm={toggleForm} />}
+              {isLogin ? (
+                <LoginForm toggleForm={toggleForm} />
+              ) : (
+                <RegisterForm toggleForm={toggleForm} />
+              )}
             </motion.div>
           </AnimatePresence>
         </div>
@@ -78,4 +81,3 @@ function RegisterForm({ toggleForm }) {
     </>
   );
 }
-
