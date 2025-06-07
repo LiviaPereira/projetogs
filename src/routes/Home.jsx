@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
-import './Home.css'; // Assuming this has your feature-box animation if any
 
-import enchente from '/img/enchente.png'; // Correct path to your image
+import enchente from '../img/enchente.png'; // Correct path to your image
 
 export default function Home() {
   const featureCards = [
