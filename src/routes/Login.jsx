@@ -7,7 +7,7 @@ export default function Login() {
   const toggleForm = () => setIsLogin(!isLogin);
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center font-montserrat p-4">
       <div className="relative w-full max-w-md perspective">
         <div className="relative w-full h-[400px]">
           <AnimatePresence mode="wait">
