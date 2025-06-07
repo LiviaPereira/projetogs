@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import enchente from '../img/enchente.png'; // Correct path to your image
+import enchente from '../img/enchente.png';
 
 export default function Home() {
   const featureCards = [
@@ -25,22 +25,20 @@ export default function Home() {
   ];
 
   return (
-    <main className="p-6 space-y-12 animate-slide-up"> {/* Added animate-slide-up here */}
+    <main className="p-6 space-y-12 animate-slide-up">
       {/* Welcome Section */}
       <section className="text-center">
         <h1 className="text-4xl font-bold text-red-600 mb-2">Bem-vindo ao Alerta+</h1>
         <p className="text-gray-700 max-w-xl mx-auto">Solução tecnológica para prevenção de enchentes no Brasil, unindo sensores, dados e comunicação em tempo real.</p>
       </section>
 
-      {/* Main Image - Added hover effect */}
       <img
         src={enchente}
         alt="Alerta+"
         className="mx-auto rounded-lg shadow-md max-w-2xl w-full h-auto block
-                   transition-transform duration-300 hover:scale-105 hover:shadow-xl" // Added hover effects
+                  transition-transform duration-300 hover:scale-105 hover:shadow-xl"
       />
 
-      {/* Feature Cards Section - Hover effects already added in previous iteration */}
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {featureCards.map((c, i) => (
           <div key={i} className="bg-white p-6 shadow-lg rounded-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
@@ -52,7 +50,6 @@ export default function Home() {
         ))}
       </section>
 
-      {/* Como Funciona? Section - Hover effects already added in previous iteration */}
       <section className="py-8">
         <h2 className="text-3xl font-bold text-red-600 mb-8 text-center">Como Funciona?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
